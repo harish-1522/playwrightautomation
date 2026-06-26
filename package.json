@@ -4,14 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "test:headed": "npx playwright test --headed",
-    "test:debug": "npx playwright test --debug",
-    "test:chromium": "npx playwright test --project=chromium",
-    "test:local": "Base_URL=http://localhost:3000 npx playwright test",
-    "test:first": "npx playwright test --grep @first",
-    "test:report": "npx playwright test && npx playwright show-report",
-    "test:ui": "npx playwright test --ui"
+   "demo": "npx playwright test tests/datatypes/demo/mytest.spec.ts --headed"
   },
   "keywords": [],
   "author": "",
